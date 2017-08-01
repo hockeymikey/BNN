@@ -234,14 +234,14 @@ def criss_cross_run(points, o_img, cols, cM,dir,image_size):
           for s, sv in dv.items():
             normal_box(sv,img,cM,dir,image_size)
 
-def crisscross(image_size=24,dir='./data_prep/imgs_veg/train/'):
+def crisscross(image_size=24,dir='./data_prep/imgs_veg/train/', moz_dir='../Mosaics'):
   
   if not os.path.exists(dir):
     os.makedirs(dir)
   
-  cols = get_sorted_veg_from_excel(file="../Veg/2016_veg_data.xlsx", root="./cache/")
+  cols = get_sorted_veg_from_excel(file="./Resources/2016_veg_data.xlsx", root="./cache/")
   
-  Mos = tif_utils.get_mos_from_dir(dir='../Mosaics')
+  Mos = tif_utils.get_mos_from_dir(dir=moz_dir)
   # cols = size_of_col()
   
   file = open('./output/new_points_KML.csv')

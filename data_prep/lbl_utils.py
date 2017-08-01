@@ -36,7 +36,7 @@ def extract_values_from_point_name(name):
   return extrated
 
 
-def get_sorted_veg_from_excel(file ="../../Veg/2016_veg_data.xlsx", root="./cache/"):
+def get_sorted_veg_from_excel(file ="./Resources/2016_veg_data.xlsx", root="./cache/"):
   '''
   Given an excel file of the veg data, sorts the points and line segments between them where data was measured.
   Sorted by: Zone -> Col -> Row -> Segment (NW-SE or NE-SW) -> [v_seg object, [Label of veg with index being step number]]
