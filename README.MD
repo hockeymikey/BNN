@@ -1,4 +1,4 @@
-## BNN - Vegetation classifcation with ConvNets
+## BNN - Vegetation classification with ConvNets
 
 ### [Complete source of work](http://gitbay.hockeymikey.com/hockeymikey/BNN)
 
