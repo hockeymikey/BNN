@@ -1,0 +1,10 @@
+**/visual/
+**/logs
+**/cache
+**/cs231n/datasets
+**/mnist
+**/tflow/mnist_convnet_model
+
+**/__pycache__/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
