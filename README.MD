@@ -8,12 +8,12 @@ ConvNets were used, one being based on Stanford's cs231n class (stored in cs231n
 The results were dismal, only achiving at best ~40% accuracy and 60-70% in binary classification.
 
 #### Mosaics Used:
-* (https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_2016/20160714_wh-vh_01_75m_transparent_mosaic_group1.tif)
-* (https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_2016/20160714_wh_vg_02_75m_transparent_mosaic_group1.tif)
+* https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_2016/20160714_wh-vh_01_75m_transparent_mosaic_group1.tif
+* https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_2016/20160714_wh_vg_02_75m_transparent_mosaic_group1.tif
 
 	All mosaics scanned:
-	* (https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_2016/)
-	* (https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_june_2016/)
+	* https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_2016/
+	* https://csgrid.org/share/uas_wildlife/hudson_bay/mosaic_june_2016/
 
 #### Layout of project:
 
