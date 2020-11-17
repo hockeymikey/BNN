@@ -36,5 +36,5 @@ The results were dismal, only achiving at best ~40% accuracy and 60-70% in binar
 10. visual - Mosaics with visual drawing of extracted images from big_draw.py. .txt files are point locations/pixels
 11. keras_binary.py - Tensorflow backend, trains binary against each class of dataset and stores results in txt file.
 12. keras_training.py - Tensorflow backend, general classification of veg dataset.
-13. prep_data.py - CMD UI for quickly extracting,sorting and pickeling veg data. Very basic atm, needs to be more advance.
+13. prep_data.py - Cli for quickly extracting,sorting and pickeling veg data. Very basic atm, needs to be more advance.
 14. Veg_solver.py - Main for cs231n ConvNet, training it against Veg dataset.
